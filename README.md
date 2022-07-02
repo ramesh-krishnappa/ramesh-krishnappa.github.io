@@ -1,1 +1,0 @@
-# ramesh-krishnappa.github.io
