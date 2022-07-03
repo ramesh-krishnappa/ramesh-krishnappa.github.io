@@ -61,6 +61,7 @@ li {
     text-transform: uppercase;
     width: 200px;
   }
+
   
   .features figure img {
     border: 1px solid white;
@@ -72,6 +73,8 @@ li {
    .p {
     color:White;
     text-align:center;
+    margin: auto;
+    width: 200px;
 } 
 
 h2 {
