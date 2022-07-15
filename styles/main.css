@@ -1,5 +1,5 @@
 body {
-  background: rgb(58,58,58);
+  background: rgb(72, 131, 207);
   color: white;
   font-family: helvetica Neue, Arial, Helvetica, sans-serif;
   margin: 0;
@@ -26,13 +26,13 @@ header a {
 header .logo a {
     background-image: url("/Images/Logo.png" );
     background-size: 300px;
-  background-repeat: no-repeat;
-  display: inline-block;
-  height: 80px;
-  position: relative;
-  text-indent: -9999999px;
-  top: -30px;
-  width: 300px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 80px;
+    position: relative;
+    text-indent: -9999999px;
+    top: -30px;
+    width: 300px;
 }
 ul {
   margin: 0;
@@ -43,6 +43,7 @@ ul {
 li {
   display: inline-block;
   margin-right: 20px;
+  text-align: center;
 }
 
   /* FEATURES */
@@ -81,6 +82,11 @@ h2 {
     color:White;
     text-align:center;
 }
+h3 {
+  font-size: 18pt;
+  color:White;
+  text-align:center;
+}
   
   /* FOOTER */
   
@@ -88,7 +94,7 @@ h2 {
     background: green;
     color: white;
 
-    font-size: 12px;
+    font-size: 16px;
     padding: 20px 20px;
     text-align: center;
   }
