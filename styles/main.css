@@ -1,9 +1,10 @@
 body {
   background: rgb(72, 131, 207);
-  color: white;
+  color: Black;
   font-family: helvetica Neue, Arial, Helvetica, sans-serif;
   margin: 0;
   padding: 0;
+  text-align: center;
   }
   /* HEADER */
   header {
@@ -72,21 +73,45 @@ li {
   }
 
    .p {
-    color:White;
+    color:black;
     text-align:center;
     
 } 
 
 h2 {
     font-size: 18pt;
-    color:White;
+    color:Black;
     text-align:center;
 }
 h3 {
   font-size: 18pt;
-  color:White;
+  color:Black;
   text-align:center;
 }
+.page-wrapper {
+  margin-bottom: auto;
+  margin-right: 10%;
+  margin-left: 10%;
+  padding: 20px 20px 20px 20px;
+  background-color: azure;
+}
+
+.typesetting {
+  padding: 20px 5px 0px 5px;
+}
+
+.container {
+  height: 350px;
+  border:rgb(219, 219, 219) solid 5px;
+ 
+}
+
+.container-full {
+  border:rgb(219, 219, 219) solid 5px;
+  padding: 0 15px;
+  
+}
+
   
   /* FOOTER */
   
@@ -99,21 +124,34 @@ h3 {
     text-align: center;
   }
 
-  /* For Mobile Phones Portrait or Landscape View */
-@media screen and (max-device-width: 640px) {
-  .header {
-    padding: 5px;
-    font-size: 15px;
-  }
+  @@media only screen and (min-width: 768px) {
+    body {
+      background-color: rgb(72, 131, 207);
+    }
+  #container {
+      margin-left: auto;
+      margin-right: auto;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;  
+    }
   
-
-  }
-
-  @media screen and (max-device-width: 320px) {
-    .header {
-      padding: 2.5px;
-      font-size: 5px;
+    #header {
+      
     }
     
-  
+    #blog, #welcome {
+     
     }
+    #content {
+     
+    }
+  
+  }
+  
+  @media only screen and (min-width:1200px) {
+    body {
+      background-color:  rgb(72, 131, 207);
+    }
+  }
+  
